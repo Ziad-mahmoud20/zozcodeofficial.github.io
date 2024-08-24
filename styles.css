@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    padding: 60px 0;
+    background: url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.products .card {
+    border: none;
+}
+
+.products .card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-details img {
+    max-width: 100%;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer p {
+    margin: 0;
+}
